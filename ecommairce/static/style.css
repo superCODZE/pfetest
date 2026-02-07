@@ -1,3 +1,20 @@
-h1{
-    color: red;
+.navbar{
+    background-color: #333;
+    
+    
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav-link{
+   
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    
 }
