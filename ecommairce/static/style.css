@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 100px;
     
 }
 .navbar h2{
@@ -25,10 +26,15 @@
 
 
 .nav-icons img{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-color: aliceblue;
     border-radius: 100%;
+}
+
+.nav-icons{
+    display: flex;
+    gap: 15px;
 }
 
 body{
