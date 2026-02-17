@@ -4,9 +4,17 @@
     align-items: center;
     justify-content: space-around;
     gap: 100px;
+    position: fixed;
+    margin: auto;
+    margin: 0 ;
     
 }
-.navbar h2{
+#logo{
+    text-shadow: #1f2937 (5px, 6px , 6px);
+}
+
+
+.navbar #logo{
     color: #f59e0b;
     font-size: 24px;
     font-style: italic;
@@ -22,6 +30,11 @@
 .nav-links a{
     color : white;
     text-decoration: none;
+}
+
+.nav-links a:hover{
+    color: #f59e0b;
+    transition: 0.5s;
 }
 
 
