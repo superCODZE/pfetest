@@ -6,6 +6,7 @@
     gap: 100px;
     position: fixed;
     width: 100%;
+    
    
     
 }
@@ -58,8 +59,9 @@
 }
 
 .footer{
-    margin: 0;
-    margin-top: auto;
+    background-color: #1f2937;
+    color: white;
+    
 }
 
 body{
